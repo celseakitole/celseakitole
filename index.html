@@ -1,99 +1,291 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Celsea Kitole - My Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        /* General Page Styling */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #243447;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        /* Navigation Menu */
+        nav {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #243447;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #8c6b43;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Sections */
+        section {
+            background-color: white;
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            color: #243447;
+            border-bottom: 2px solid #8c6b43;
+            padding-bottom: 8px;
+        }
+
+        /* Lists */
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Links */
+        a {
+            color: #5b4636;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #243447;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        /* Mobile-Friendly Design */
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 32px;
+            }
+
+            header p {
+                font-size: 17px;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            main {
+                padding: 0 12px;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+
+    </style>
 </head>
 
 <body>
 
-    <h1>Celsea Kitole</h1>
-    <h2>Business Administration Student</h2>
+    <!-- Header -->
+    <header>
+        <h1>Celsea Kitole</h1>
+        <p>Business Administration Student</p>
+    </header>
 
-    <h3>About Me</h3>
-    <p>
-        Hello! My name is Celsea Kitole, and I am a Business Administration
-        student at the University of Utah. I am interested in business,
-        information systems, technology, and the ways organizations can use
-        technology to solve problems and improve operations. My career
-        interests include management, business operations, and analytics,
-        with a focus on improving efficiency and supporting effective
-        decision-making. I am particularly interested in learning how
-        artificial intelligence and emerging technologies can be applied
-        as valuable tools in business. Through my education and professional
-        experiences, I hope to continue developing my skills and knowledge
-        while preparing for a successful career in business and technology.
-    </p>
 
-    <h3>Education</h3>
-    <p>
-        <strong>University of Utah</strong><br>
-        Business Administration
-    </p>
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#interests">Career Interests</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <p>
-        <strong>Salt Lake Community College</strong><br>
-        Associate of Science
-    </p>
 
-    <h3>Career Interests</h3>
-    <ul>
-        <li>Management</li>
-        <li>Business Operations</li>
-        <li>Information Systems</li>
-        <li>Data and Analytics</li>
-        <li>Human Resources</li>
-        <li>Artificial Intelligence and Technology</li>
-    </ul>
+    <!-- Main Content -->
+    <main>
 
-    <h3>Skills</h3>
-    <ul>
-        <li>Problem Solving</li>
-        <li>Communication</li>
-        <li>Management</li>
-        <li>Business Analysis</li>
-        <li>Technology</li>
-    </ul>
+        <!-- About Me -->
+        <section id="about">
+            <h2>About Me</h2>
 
-    <p>
-        <h3>Projects</h3>
+            <p>
+                Hello! My name is Celsea Kitole, and I am a Business Administration
+                student at the University of Utah. I am interested in business,
+                information systems, technology, and the ways organizations can use
+                technology to solve problems and improve operations. My career
+                interests include management, business operations, and analytics,
+                with a focus on improving efficiency and supporting effective
+                decision-making. I am particularly interested in learning how
+                artificial intelligence and emerging technologies can be applied
+                as valuable tools in business. Through my education and professional
+                experiences, I hope to continue developing my skills and knowledge
+                while preparing for a successful career in business and technology.
+            </p>
+        </section>
 
-<ul>
-    <li><strong>AI Business Analysis</strong> — Analyze business data using ChatGPT</li>
-    <li><strong>Data Visualization</strong> — Dashboard built with Tableau</li>
-    <li><strong>Web Development</strong> — Responsive Bootstrap website</li>
-    <li><strong>Process Improvement</strong> — AI-assisted workflow redesign</li>
-</ul>
 
-<h3>Projects</h3>
+        <!-- Education -->
+        <section id="education">
+            <h2>Education</h2>
 
-<ul>
-    <li><strong>AI Business Analysis</strong> — Analyze business data using ChatGPT</li>
-    <li><strong>Data Visualization</strong> — Dashboard built with Tableau</li>
-    <li><strong>Web Development</strong> — Responsive Bootstrap website</li>
-    <li><strong>Process Improvement</strong> — AI-assisted workflow redesign</li>
-</ul>
+            <p>
+                <strong>University of Utah</strong><br>
+                Business Administration
+            </p>
 
-<p>
-    This section will include projects and assignments that I complete
-    throughout my coursework.
-</p>
-    <h3>Resume</h3>
-    <p>
-        Resume coming soon.
-    </p>
+            <p>
+                <strong>Salt Lake Community College</strong><br>
+                Associate of Science
+            </p>
+        </section>
 
-    <h3>Contact</h3>
-    <p>
-        Email: u1446174@umail.utah.edu
-    </p>
 
-    <p>
-        LinkedIn:
-        <a href="YOUR-LINKEDIN-LINK-HERE" target="_blank">
-            View my LinkedIn profile
-        </a>
-    </p>
+        <!-- Career Interests -->
+        <section id="interests">
+            <h2>Career Interests</h2>
+
+            <ul>
+                <li>Management</li>
+                <li>Business Operations</li>
+                <li>Information Systems</li>
+                <li>Data and Analytics</li>
+                <li>Human Resources</li>
+                <li>Artificial Intelligence and Technology</li>
+            </ul>
+        </section>
+
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <ul>
+                <li>Problem Solving</li>
+                <li>Communication</li>
+                <li>Management</li>
+                <li>Business Analysis</li>
+                <li>Technology</li>
+            </ul>
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <ul>
+                <li>
+                    <strong>AI Business Analysis</strong> —
+                    Analyze business data using ChatGPT
+                </li>
+
+                <li>
+                    <strong>Data Visualization</strong> —
+                    Dashboard built with Tableau
+                </li>
+
+                <li>
+                    <strong>Web Development</strong> —
+                    Responsive Bootstrap website
+                </li>
+
+                <li>
+                    <strong>Process Improvement</strong> —
+                    AI-assisted workflow redesign
+                </li>
+            </ul>
+
+            <p>
+                This section will include projects and assignments that I complete
+                throughout my coursework.
+            </p>
+        </section>
+
+
+        <!-- Resume -->
+        <section id="resume">
+            <h2>Resume</h2>
+
+            <p>
+                Resume coming soon.
+            </p>
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <p>
+                Email: u1446174@umail.utah.edu
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="www.linkedin.com/in/celsea-kitole-249875432" target="_blank">
+                    View my LinkedIn profile
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Celsea Kitole. All rights reserved.</p>
+    </footer>
 
 </body>
+
 </html>
